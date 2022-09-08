@@ -12,6 +12,7 @@ Deployments are triggered by committing to Git and pushing to GitHub.
 - Link the site to your desired GitHub repository
 - Add build command `./build.sh`
 - Set output directory to `storage/app/static`
+- Set install command to `npm run production`
 - Add environment variable in your project settings: `APP_KEY` `<copy & paste from dev>`
 
 #### Code for build.sh
